@@ -21,6 +21,20 @@
       }
     },
     {
+      "name": "Embedded Elixir string ponctuation",
+      "scope": "punctuation.section.embedded",
+      "settings": {
+        "foreground": "#A875FF"
+      }
+    },
+    {
+      "name": "Embedded Elixir string source",
+      "scope": "source.elixir.embedded.source",
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
       "name": "Number",
       "scope": "constant.numeric",
       "settings": {
@@ -176,7 +190,8 @@
         "variable.language.this.js",
         "variable.language.this.ts",
         "variable.language.super.js",
-        "variable.language.this.php"
+        "variable.language.this.php",
+        "variable.language.elixir"
       ],
       "settings": {
         "foreground": "#42c6ff",
