@@ -105,6 +105,14 @@
       }
     },
     {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#ff9b50"
+      }
+    },
+    {
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
@@ -321,6 +329,25 @@
       "scope": "variable.other",
       "settings": {
         "foreground": "#ffffff",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Elixir function notation",
+      "scope": "variable.other.readwrite.module",
+      "settings": {
+        "foreground": "#A875FF",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Elixir Module",
+      "scope": [
+        "variable.other.constant",
+        "entity.name.type.module"
+      ],
+      "settings": {
+        "foreground": "#42c6ff",
         "fontStyle": ""
       }
     },
