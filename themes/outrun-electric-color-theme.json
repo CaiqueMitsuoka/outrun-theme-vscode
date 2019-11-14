@@ -14,6 +14,13 @@
       }
     },
     {
+      "name": "Scope ponctuation",
+      "scope": "punctuation.section.scope",
+      "settings": {
+        "foreground": "#A875FF"
+      }
+    },
+    {
       "name": "String",
       "scope": "string",
       "settings": {
@@ -115,7 +122,7 @@
       "scope": "entity.name.function - meta.function-call",
       "settings": {
         "fontStyle": "",
-        "foreground": "#ff9b50"
+        "foreground": "#eb6941"
       }
     },
     {
@@ -123,7 +130,7 @@
       "scope": "entity.name.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#ff9b50"
+        "foreground": "#eb6941"
       }
     },
     {
@@ -155,7 +162,7 @@
       "scope": "support.function",
       "settings": {
         "fontStyle": "",
-        "foreground": "#ff9b50"
+        "foreground": "#eb6941"
       }
     },
     {
@@ -211,6 +218,20 @@
       "scope": "invalid.deprecated",
       "settings": {
         "foreground": "#cf433e"
+      }
+    },
+    {
+      "name": "Function call",
+      "scope": "meta.function-call",
+      "settings": {
+        "foreground": "#eb6941"
+      }
+    },
+    {
+      "name": "Function ponctuation",
+      "scope": "punctuation.section.function",
+      "settings": {
+        "foreground": "#ff2afc"
       }
     },
     {
@@ -539,7 +560,7 @@
     "editorIndentGuide.background": "#2d2844",
     "editorIndentGuide.activeBackground": "#484f7d",
     "editorError.foreground": "#ff2e97",
-    "editorWarning.foreground": "#ff9b50",
+    "editorWarning.foreground": "#eb6941",
     "editorInfo.foreground": "#7984D1",
     // Editor Widget Colors
     "editorWidget.background": "#3b4167",
@@ -572,7 +593,7 @@
     "input.background": "#0c0a20",
     "input.placeholderForeground": "#7984D1",
     "input.border": "#763b8c",
-    "inputOption.activeBorder": "#ff9b50",
+    "inputOption.activeBorder": "#eb6941",
     // Scrollbar Control
     "scrollbar.shadow": "#090819",
     "scrollbarSlider.activeBackground": "#919ad9",
@@ -583,6 +604,8 @@
     "activityBar.foreground": "#7984D1",
     "activityBarBadge.background": "#ff2e97",
     "activityBarBadge.foreground": "#ffffff",
+    "activityBar.activeBorder": "#ccff00",
+    "activityBar.activeBackground": "#7983d140",
     // Status Bar
     "statusBar.background": "#090819",
     "statusBar.foreground": "#7984D1",
@@ -596,12 +619,12 @@
     "panelTitle.activeForeground": "#f2f3f7",
     "panelTitle.inactiveForeground": "#7984D1",
     // Peek View
-    "peekView.border": "#ff9b50",
+    "peekView.border": "#eb6941",
     "peekViewEditor.background": "#110d26",
     "peekViewEditor.matchHighlightBackground": "#161130",
     "peekViewEditor.matchHighlightBorder": "#161130",
     "peekViewResult.background": "#0c0a20",
-    "peekViewResult.selectionBackground": "#ff9b50",
+    "peekViewResult.selectionBackground": "#eb6941",
     "peekViewTitle.background": "#0c0a20",
     "peekViewTitleDescription.foreground": "#7984D1",
     // Title Bar Colors
