@@ -611,6 +611,7 @@
     "statusBar.foreground": "#7984D1",
     "statusBar.noFolderBackground": "#1ea8fc",
     "statusBar.noFolderForeground": "#ffffff",
+    "statusBar.debuggingBackground": "#ffc400",
     // Panel Colors
     "panel.background": "#090819",
     "panel.border": "#090819",
