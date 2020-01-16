@@ -134,6 +134,16 @@
       }
     },
     {
+      "name": "Function definition name",
+      "scope": [
+        "meta.definition.function entity.name.function"
+      ],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#ff6333"
+      }
+    },
+    {
       "name": "Function argument",
       "scope": "variable.parameter",
       "settings": {
