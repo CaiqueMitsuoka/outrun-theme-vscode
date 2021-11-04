@@ -555,6 +555,7 @@
     // Editor
     "editor.background": "#0c0a20",
     "editor.foreground": "#f2f3f7",
+    "editorHoverWidget.highlightForeground": "#ff2e97",
     "editorLineNumber.foreground": "#484f7d",
     "editorLineNumber.activeForeground": "#42c6ff",
     "editorCursor.foreground": "#ff2e97",
