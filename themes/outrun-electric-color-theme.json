@@ -22,7 +22,10 @@
     },
     {
       "name": "String",
-      "scope": "string",
+      "scope": [
+        "string",
+        "support.function.variable.quoted.single.elixir"
+      ],
       "settings": {
         "foreground": "#7984D1"
       }
