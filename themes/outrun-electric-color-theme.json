@@ -232,7 +232,10 @@
     },
     {
       "name": "Function call",
-      "scope": "meta.function-call",
+      "scope": [
+        "meta.function-call",
+        "entity.name.function-call.elixir"
+      ],
       "settings": {
         "foreground": "#ff6333"
       }
